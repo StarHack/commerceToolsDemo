@@ -1,0 +1,9 @@
+[submodule "commerceToolsDemo/commercetools-hello-api-java"]
+	path = commerceToolsDemo/commercetools-hello-api-java
+	url = https://github.com/commercetools/commercetools-hello-api-java
+[submodule "commerceToolsDemo/commercetools-sunrise-data"]
+	path = commerceToolsDemo/commercetools-sunrise-data
+	url = https://github.com/commercetools/commercetools-sunrise-data
+[submodule "commerceToolsDemo/commercetools-sunrise-java-starter"]
+	path = commerceToolsDemo/commercetools-sunrise-java-starter
+	url = https://github.com/commercetools/commercetools-sunrise-java-starter
