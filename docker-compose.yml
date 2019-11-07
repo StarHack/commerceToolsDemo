@@ -1,0 +1,14 @@
+version: '3'
+services:
+  commerceToolsDemo:
+    image: openjdk:8
+    container_name: commerceToolsDemo
+    volumes:
+    - ./commerceToolsDemo/:/opt/commerceToolsDemo/
+    ports:
+    - 9000:9000
+    command: bash -c "
+        cd /opt/commerceToolsDemo/commercetools-sunrise-java-starter && 
+        chmod +x activator && 
+        ./activator sunriseThemeImportAll run"
+    stdin_open: true
