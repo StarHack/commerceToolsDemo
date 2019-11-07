@@ -10,7 +10,7 @@ This is a dockerized version of the commerceTools demo project.
 ## Usage
 
 ```
-git clone git@github.com:StarHack/commerceToolsDemo.git
+git clone --recurse-submodules git@github.com:StarHack/commerceToolsDemo.git
 cd commerceToolsDemo/
 docker-compose up
 ```
